@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century;
+}
+
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 400px;
+    margin-top: 400px;
+    margin-left: 350px;
+}
+
+.box {
+    background-size: cover;
+    background-color: #f0f0f0;
+    border: 10px solid #333;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 300vh;
+    height: 55vh;
+    font-size: 22px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.box h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.box p {
+    font-size: 18px;
+    justify-content: space-between;
+}
+
+ header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(aa.jpeg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    min-height: 100px;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 30px;
+    min-height: 200px;
+    margin-right: 60px;
+    font-size: 16px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.5 ease;
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+ul li.active a{
+    background-color: #fff;
+    color: #000;
+}
+
+.logo img{
+    float: left;
+    width: 150px;
+    height: auto;
+}
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.sub-menu{
+    display: none;
+    top: 6%;
+    position: relative;
+}
+
+.sub-menu ul{
+    position: absolute;
+}
+
+.main ul li:hover .sub-menu{
+    display: block;
+    position: absolute;
+    background-color: rgb(0, 45, 117);
+    margin-top: 12px;
+    margin-left: -8px;
+}
+
+.main ul li:hover .sub-menu ul{
+    display: block;
+    margin: 6px;
+}
+
+.main ul li:hover .sub-menu ul li{
+    width: 75px;
+    padding: 5px;
+    border-bottom: 1px #fff;
+    background: transparent;
+    transition: 0.4 ease;
+    text-align: left;
+    border-radius: 0px ;
+}
+
+.login{
+    border: 1px solid #fff;
+    padding: 5px 20px;
+    color: #000;
+    transition: 0.5 ease;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.login:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+.container{
+    align-items: center;
+}
